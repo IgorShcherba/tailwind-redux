@@ -3,3 +3,4 @@ public/*
 node_modules
 src/react-app-env.d.ts
 src/serviceWorker.ts
+tailwind.config.js

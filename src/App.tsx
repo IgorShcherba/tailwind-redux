@@ -1,7 +1,12 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { LoginPage } from "features/auth/LoginPage";
+
 export const App = () => {
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100 font-bold text-3xl">
-      rooqi admin paneld
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/login" component={LoginPage} />
+      </Switch>
+    </Router>
   );
 };
